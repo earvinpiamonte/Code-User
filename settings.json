@@ -5,7 +5,7 @@
   "editor.formatOnPaste": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.colorTheme": "Brackets Dark",
   "emmet.preferences": {
     "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
   },
