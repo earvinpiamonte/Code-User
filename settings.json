@@ -33,6 +33,5 @@
   "prettier.singleQuote": true,
   "explorer.confirmDelete": false,
   "git.autofetch": true,
-  "workbench.iconTheme": "vscode-icons",
   "workbench.editor.highlightModifiedTabs": true
 }
