@@ -3,9 +3,16 @@
   "files.trimTrailingWhitespace": true,
   "editor.wordWrap": "on",
   "editor.formatOnPaste": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
-  "workbench.colorTheme": "Brackets Dark",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line",
+  "editor.renderIndentGuides": true,
+  "workbench.colorTheme": "Noctis Obscuro",
   "emmet.preferences": {
     "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
   },
@@ -25,5 +32,7 @@
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "explorer.confirmDelete": false,
-  "git.autofetch": true
+  "git.autofetch": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.highlightModifiedTabs": true
 }
