@@ -12,7 +12,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorStyle": "line",
   "editor.renderIndentGuides": true,
-  "workbench.colorTheme": "Noctis Obscuro",
+  "workbench.colorTheme": "Noctis Azureus",
   "emmet.preferences": {
     "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
   },
