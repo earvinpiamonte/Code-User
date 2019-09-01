@@ -33,5 +33,6 @@
   "prettier.singleQuote": true,
   "explorer.confirmDelete": false,
   "git.autofetch": true,
-  "workbench.editor.highlightModifiedTabs": true
+  "workbench.editor.highlightModifiedTabs": true,
+  "git.confirmSync": false
 }
