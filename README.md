@@ -1,10 +1,30 @@
-Prerequisite:
+# Welcome to my VS Code settings
 
-[https://gitlab.com/earvinpiamonte/generate-code-extensions](https://gitlab.com/earvinpiamonte/generate-code-extensions)
+This is the repo of my Visual Studio Code settings and keybindings.
 
-Clone the project:
+## Prerequesite:
 
-    cd ~/.config/Code/
-    git clone git@gitlab.com:earvinpiamonte/Code-User.git
-    mv User/ User-old/
-    mv Code-User/ User/
+I use [Fira Code](https://github.com/tonsky/FiraCode) as the font family for my VS Code. This must be installed on your computer/ system. Follow their [repo](https://github.com/tonsky/FiraCode) on how to install the font.
+
+Make sure to install the extensions first before using your VS Code with my settings.
+
+## Extensions
+
+I generate and install extensions via command line. Check out my other [repo](https://github.com/earvinpiamonte/generate-code-extensions) on how to install the extension (for Linux/ MacOS users only).
+
+## Clone and Usage
+
+For Linux/ MacOS users:
+
+```
+cd ~/.config/Code/
+git clone https://github.com/earvinpiamonte/generate-code-extensions.git
+mv User/ User-old/
+mv Code-User/ User/
+```
+
+## Contact
+
+Found any issue or have some recommendation? Email me at [earvin.piamonte@gmail.com](mailto:earvin.piamonte@gmail.com).
+
+Also, check out my [website](https://earvinpiamonte.com). It's built using React, Gatsby as the static site generator and deployed on Netlify.
