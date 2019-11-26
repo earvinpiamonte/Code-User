@@ -6,7 +6,7 @@
   "editor.fontFamily": "Dank Mono",
   "terminal.integrated.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 20,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
   "editor.cursorBlinking": "smooth",
@@ -25,16 +25,17 @@
   },
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
-    "activityBar.background": "#222",
+    "activityBar.background": "#111",
     "activityBar.foreground": "#f2f2f2",
-    "activityBar.inactiveForeground": "#444",
+    "activityBar.inactiveForeground": "#333",
     "activityBarBadge.background": "#c0392b",
     "activityBarBadge.foreground": "#e7e7e7",
-    "titleBar.activeBackground": "#222",
-    "titleBar.inactiveBackground": "#444",
+    "titleBar.activeBackground": "#111",
+    "titleBar.inactiveBackground": "#222",
     "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveForeground": "#e7e7e799",
-    "statusBar.background": "#222",
+    "titleBar.inactiveForeground": "#e7e7e7",
+    "statusBar.background": "#111",
+    "statusBar.noFolderBackground": "#222",
     "statusBarItem.hoverBackground": "#111",
     "statusBar.foreground": "#e7e7e7"
   },
@@ -80,5 +81,6 @@
         }
       }
     ]
-  }
+  },
+  "prettier.singleQuote": true
 }
