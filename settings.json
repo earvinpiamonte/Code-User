@@ -1,66 +1,27 @@
 {
-  "files.autoSave": "onFocusChange",
-  "files.trimTrailingWhitespace": true,
-  "editor.wordWrap": "on",
-  "editor.formatOnPaste": true,
-  "editor.fontFamily": "Dank Mono",
-  "terminal.integrated.fontFamily": "Dank Mono",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 20,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top",
+  "breadcrumbs.enabled": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorStyle": "line",
-  "editor.renderIndentGuides": true,
-  "emmet.preferences": {
-    "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
-  },
-  "emmet.syntaxProfiles": {
-    // Enable XHTML dialect for HTML syntax
-    // “html”: “xhtml”
-    "html": {
-      "filters": "html, c"
-    }
-  },
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#111",
-    "activityBar.foreground": "#f2f2f2",
-    "activityBar.inactiveForeground": "#333",
-    "activityBarBadge.background": "#c0392b",
-    "activityBarBadge.foreground": "#e7e7e7",
-    "titleBar.activeBackground": "#111",
-    "titleBar.inactiveBackground": "#222",
-    "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveForeground": "#e7e7e7",
-    "statusBar.background": "#111",
-    "statusBar.noFolderBackground": "#222",
-    "statusBarItem.hoverBackground": "#111",
-    "statusBar.foreground": "#e7e7e7"
-  },
-  "breadcrumbs.enabled": true,
-  "editor.tabSize": 2,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 0,
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 20,
+  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "git.autofetch": true,
-  "explorer.confirmDelete": false,
-  "workbench.editor.highlightModifiedTabs": true,
-  "git.confirmSync": false,
-  "extensions.ignoreRecommendations": true,
-  "workbench.colorTheme": "Brackets Dark",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderIndentGuides": true,
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": [
-          //following will be in italic (=FlottFlott)
           "comment",
-          "entity.name.type.class", //class names
-          "keyword", //import, export, return…
-          "constant", //String, Number, Boolean…, this, super
-          "storage.modifier", //static keyword
-          "storage.type.class.js" //class keyword
+          "entity.name.type.class",
+          "keyword",
+          "constant",
+          "storage.modifier",
+          "storage.type.class.js"
         ],
         "settings": {
           "fontStyle": "italic"
@@ -68,7 +29,6 @@
       },
       {
         "scope": [
-          //following will be excluded from italics (VSCode has some defaults for italics)
           "invalid",
           "keyword.operator",
           "constant.numeric.css",
@@ -82,5 +42,45 @@
       }
     ]
   },
-  "prettier.singleQuote": true
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.preferences": {
+    "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "filters": "html, c"
+    }
+  },
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.disableLanguages": ["js"],
+  "terminal.integrated.fontFamily": "Dank Mono",
+  "window.zoomLevel": 0,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#111",
+    "activityBar.foreground": "#f2f2f2",
+    "activityBar.inactiveForeground": "#333",
+    "activityBarBadge.background": "#c0392b",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#111",
+    "statusBar.debuggingBackground": "#111",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBar.noFolderBackground": "#222",
+    "statusBarItem.hoverBackground": "#111",
+    "titleBar.activeBackground": "#111",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#222",
+    "titleBar.inactiveForeground": "#e7e7e7"
+  },
+  "workbench.colorTheme": "Brackets Dark",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.startupEditor": "none"
 }
