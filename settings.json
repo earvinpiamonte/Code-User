@@ -5,7 +5,7 @@
   "editor.cursorStyle": "line",
   "editor.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
-  "editor.fontSize": 24,
+  "editor.fontSize": 20,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.multiCursorModifier": "ctrlCmd",
@@ -82,5 +82,6 @@
   },
   "workbench.colorTheme": "Brackets Dark",
   "workbench.editor.highlightModifiedTabs": true,
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "liveServer.settings.donotShowInfoMsg": true
 }
