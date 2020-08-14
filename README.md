@@ -4,7 +4,7 @@ This is the repo of my Visual Studio Code settings and keybindings.
 
 ## Prerequesite:
 
-I use [Fira Code](https://github.com/tonsky/FiraCode) as the font family for my VS Code. This must be installed on your computer/ system. Follow their [repo](https://github.com/tonsky/FiraCode) on how to install the font.
+I use Dank Mono as the font family for my VS Code. This must be installed on your computer.
 
 Make sure to install the extensions first before using your VS Code with my settings.
 
