@@ -83,5 +83,5 @@
   "workbench.colorTheme": "Brackets Dark",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "none",
-  "liveServer.settings.donotShowInfoMsg": true
+  "php.executablePath": "/usr/bin/php"
 }
