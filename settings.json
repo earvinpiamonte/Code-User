@@ -3,11 +3,14 @@
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorStyle": "line",
+  "editor.folding": false,
   "editor.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 20,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.glyphMargin": false,
+  "editor.lineNumbers": "off",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderIndentGuides": true,
   "editor.snippetSuggestions": "top",
@@ -64,6 +67,7 @@
   "prettier.disableLanguages": ["js"],
   "terminal.integrated.fontFamily": "Dank Mono",
   "window.zoomLevel": 0,
+  "window.menuBarVisibility": "toggle",
   "workbench.colorCustomizations": {
     "activityBar.background": "#111",
     "activityBar.foreground": "#f2f2f2",
@@ -82,6 +86,11 @@
   },
   "workbench.colorTheme": "Brackets Dark",
   "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.showTabs": false,
   "workbench.startupEditor": "none",
-  "php.executablePath": "/usr/bin/php"
+  "php.executablePath": "/usr/bin/php",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
