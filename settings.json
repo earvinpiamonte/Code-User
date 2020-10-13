@@ -64,9 +64,8 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.disableLanguages": ["js"],
   "terminal.integrated.fontFamily": "Dank Mono",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": -1,
   "window.menuBarVisibility": "toggle",
   "workbench.colorCustomizations": {
     "activityBar.background": "#111",
@@ -91,6 +90,9 @@
   "php.executablePath": "/usr/bin/php",
   "diffEditor.ignoreTrimWhitespace": false,
   "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
