@@ -3,7 +3,7 @@
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorStyle": "line",
-  "editor.folding": false,
+  "editor.folding": true,
   "editor.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 20,
